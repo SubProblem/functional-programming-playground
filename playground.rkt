@@ -17,7 +17,7 @@
   (map (lambda(i) (string-append i suffix)) xs))
 
 
-;; 3) TODO: string-append-map
+;; 3) TODO: Sum-Square Difference
 
 (define (sum-square-diff n)
   (- (squared (calculate2 n)) (calculate1 n)))
@@ -41,7 +41,7 @@
       (* n n)))
 
 
-;; 4) TODO: string-append-map
+;; 4) TODO: Counting DNA Nucleotides
 (define (count-nucleotides dna)
   (test (string->list dna)))
 
@@ -57,7 +57,7 @@
 
 
 
-;; 5) TODO: string-append-map 
+;; 5) TODO: Transcribing DNA into RNA
 (define (dna-to-rna dna)
   (if (null? dna)
       null
